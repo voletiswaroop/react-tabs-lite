@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import EasyTabs from '.'
 
-describe('ExampleComponent', () => {
+describe('EasyTabs Component', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(EasyTabs).toBeTruthy()
   })
 })
