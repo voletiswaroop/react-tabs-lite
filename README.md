@@ -17,10 +17,15 @@ npm install --save react-easy-tabs
 
 ## Usage
 
-| Prop                                         | Description                                                                             | Default   |
-| -------------------------------------------- | --------------------------------------------------------------------------------------- | --------- |
-| [***section***] _[element]_                  | User can change the `section` element as per the requirement                            | 'section' |
-| [***CustomComponent***] _[#CustomComponent]_ | USers can import any customComponent and that can be include inside `<section>` element |
+- User has to import `EasyTabs` from 'react-easy-tabs' to use the react-easy-tabs component.
+- To get default styles import `'react-easy-tabs/dist/index.css'` file.
+
+| Prop                                      | Description                                                                               | Default   |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------- | --------- |
+| [***section***] _[element]_               | User can change the `section` element as per the requirement                              | 'section' |
+| [**_CustomComponent_**](#customComponent) | User can import any `customComponent` and that has to be wrapped with `<section>` element |
+
+
 
 ## Basic Example
 
@@ -82,11 +87,11 @@ class Example extends Component {
 
 ## Props
 
-| Prop                               | Description                                                       | Default         |
-| ---------------------------------- | ----------------------------------------------------------------- | --------------- |
-| [***defaultSelected***] _[number]_ | This option enable users to select `default selected tab`         | 0               |
-| [***dataicon***] _[string]_        | This option enable users to add `font awesome` icon for tab title | 'fas fa-search' |
-| [***title***] _[string]_           | This option enable users to add `title` for the Tab item          |
+| Prop                               | Description                                                           | Default         |
+| ---------------------------------- | --------------------------------------------------------------------- | --------------- |
+| [***defaultSelected***] _[number]_ | This option allows the users to select `default focus tab`            | 0               |
+| [***dataicon***] _[string]_        | This option allows the users to add `font awesome` icon for tab title | 'fas fa-search' |
+| [***title***] _[string]_           | This option allows the users to add `title` for the Tab item          |
 
 ## Contributing
 

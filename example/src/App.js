@@ -16,7 +16,7 @@ class App extends React.Component {
         </section>
         </EasyTabs>
         <footer>
-          Design &amp; Developed by <a href="https://voletiswaroop.github.io/" title="Swaroop Voleti portfolio"
+          Made with <b style={{ color: 'red' }}>&hearts;</b> by <a href="https://voletiswaroop.github.io/" title="Swaroop Voleti portfolio"
             target="_blank">Swaroop Voleti</a>
         </footer>
       </Fragment>
