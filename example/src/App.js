@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
-import EasyTabs from 'react-easy-tabs'
-import 'react-easy-tabs/dist/index.css'
+import EasyTabs from 'react-easy-tabs-component'
+import 'react-easy-tabs-component/dist/index.css'
 
 class App extends React.Component {
   render() {
