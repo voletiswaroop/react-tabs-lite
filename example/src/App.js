@@ -16,7 +16,7 @@ class App extends React.Component {
         </section>
         </EasyTabs>
         <footer style={{ textAlign: 'center', marginTop: '20px' }}>
-          Made with <b style={{ color: 'red' }}>&hearts;</b> by <a href="https://voletiswaroop.github.io/" title="Swaroop Voleti portfolio" target="_blank">Swaroop Voleti</a>
+          Made with <b style={{ color: 'red' }}>&hearts;</b> by <a rel="noreferrer" href="https://voletiswaroop.github.io/" title="Swaroop Voleti portfolio" target="_blank">Swaroop Voleti</a>
         </footer>
       </Fragment >
     )

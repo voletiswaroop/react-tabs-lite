@@ -26,13 +26,15 @@ export default class EasyTabs extends React.Component {
               <li
                 className={activeTab}
                 key={index}
-                onClick={this.handleChange.bind(this, index)}
+                onClick={() => this.handleChange(index)}
               >
                 {item.props.dataicon ? (
-                  <i className={`${item.props.dataicon} ${styles.icon}`}></i>
+                  <i className={`${item.props.dataicon} ${styles.icon}`}>
+                    &nbsp;
+                  </i>
                 ) : (
-                    ''
-                  )}
+                  ''
+                )}
                 {item.props.title}
               </li>
             )
