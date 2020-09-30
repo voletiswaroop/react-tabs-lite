@@ -18,20 +18,29 @@ export default class EasyTabs extends React.Component {
       <div className={styles.easytabsWrapper}>
         <ul className={styles.easytabsHeading}>
           {this.props.children.map((item, index) => {
-            const activeTab = index === this.state.selected
-              ? `${styles.selectedItem}  ${styles.item}`
-              : styles.item;
+            const activeTab =
+              index === this.state.selected
+                ? `${styles.selectedItem}  ${styles.item}`
+                : styles.item
             return (
-              <li className={activeTab} key={index} onClick={this.handleChange.bind(this, index)}>
-                {item.props.dataicon
-                  ? <i className={`${item.props.dataicon} ${styles.icon}`}></i>
-                  : ''}
+              <li
+                className={activeTab}
+                key={index}
+                onClick={this.handleChange.bind(this, index)}
+              >
+                {item.props.dataicon ? (
+                  <i className={`${item.props.dataicon} ${styles.icon}`}></i>
+                ) : (
+                    ''
+                  )}
                 {item.props.title}
               </li>
             )
           })}
         </ul>
-        <div className={styles.easytabsContent}>{this.props.children[this.state.selected]}</div>
+        <div className={styles.easytabsContent}>
+          {this.props.children[this.state.selected]}
+        </div>
       </div>
     )
   }
