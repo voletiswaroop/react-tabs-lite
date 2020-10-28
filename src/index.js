@@ -32,9 +32,7 @@ export default class EasyTabs extends React.Component {
                   <i className={`${item.props.dataicon} ${styles.icon}`}>
                     &nbsp;
                   </i>
-                ) : (
-                  ''
-                )}
+                ) : null}
                 {item.props.title}
               </li>
             )
