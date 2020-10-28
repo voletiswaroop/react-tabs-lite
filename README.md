@@ -1,24 +1,24 @@
-# react-easy-tabs-component
+# react-tabs-lite
 
 > This component enables developers to add any content/text or even any component inside tabpanels and by default this component comes with fontawesome icons support
 
-[![NPM](https://img.shields.io/npm/v/react-easy-tabs-component.svg)](https://www.npmjs.com/package/react-easy-tabs-component)
+[![NPM](https://img.shields.io/npm/v/react-tabs-lite.svg)](https://www.npmjs.com/package/react-tabs-lite)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-easy-tabs-component
+npm install --save react-tabs-lite
 ```
 
 ## Demo
 
-[Click here](http://swaroopvoleti.me/react-easy-tabs/) for Live Demo
+[Click here](http://swaroopvoleti.me/react-tabs-lite/) for Live Demo
 
 ## Usage
 
-- User has to import `EasyTabs` from 'react-easy-tabs-component' to use the react-easy-tabs-component component.
-- To get default styles import `'react-easy-tabs-component/dist/index.css'` file.
+- User has to import `EasyTabs` from 'react-tabs-lite' to use the react-tabs-lite component.
+- To get default styles import `'react-tabs-lite/dist/index.css'` file.
 
 | Prop                                      | Description                                                                               | Default   |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------- | --------- |
@@ -29,8 +29,8 @@ npm install --save react-easy-tabs-component
 
 ```jsx
 import React, { Component } from 'react'
-import EasyTabs from 'react-easy-tabs-component'
-import 'react-easy-tabs-component/dist/index.css'
+import EasyTabs from 'react-tabs-lite'
+import 'react-tabs-lite/dist/index.css'
 import CustomComponent from './customComponent'
 
 class Example extends Component {
@@ -60,8 +60,8 @@ class Example extends Component {
 
 ```jsx
 import React, { Component } from 'react'
-import EasyTabs from 'react-easy-tabs-component'
-import 'react-easy-tabs-component/dist/index.css'
+import EasyTabs from 'react-tabs-lite'
+import 'react-tabs-lite/dist/index.css'
 import CustomComponent from './customComponent'
 
 class Example extends Component {
@@ -93,7 +93,7 @@ class Example extends Component {
 
 ## Contributing
 
-This is a new project and contributions are welcome so feel free to [open an issue](https://github.com/voletiswaroop/react-easy-tabs-component/issues) or fork and create a pull request. Collaborators are also welcome - please send an email to voleti.swaroop@gmail.com.
+This is a new project and contributions are welcome so feel free to [open an issue](https://github.com/voletiswaroop/react-tabs-lite/issues) or fork and create a pull request. Collaborators are also welcome - please send an email to voleti.swaroop@gmail.com.
 
 ## License
 
