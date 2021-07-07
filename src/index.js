@@ -5,7 +5,7 @@ export default class EasyTabs extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      selected: this.props.selected || 0
+      selected: this.props.defaultSelected || 0
     }
   }
 
@@ -20,7 +20,7 @@ export default class EasyTabs extends React.Component {
           {this.props.children.map((item, index) => {
             const activeTab =
               index === this.state.selected
-                ? `${styles.selectedItem}  ${styles.item}`
+                ? `${styles.selectedItem} ${styles.item}`
                 : styles.item
             return (
               <li
