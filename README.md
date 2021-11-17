@@ -13,7 +13,7 @@ npm install --save react-tabs-lite
 
 ## Demo
 
-[Click here](http://swaroopvoleti.me/react-tabs-lite/) for Live Demo
+[Click here](https://voletiswaroop.github.io/react-tabs-lite/) for Live Demo
 
 ## Usage
 
